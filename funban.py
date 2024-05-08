@@ -20,7 +20,7 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
-from config import (
+from JARVISROBO import (
     DRAGONS,
     EVENT_LOGS,
     LOGGER,
@@ -29,14 +29,14 @@ from config import (
     dispatcher,
     function,
 )
-from MADBUNS.plugins.disable import DisableAbleCommandHandler
-from MADBUNS.plugins.helper_funcs.chat_status import is_user_admin
-from MADBUNS.plugins.helper_funcs.extraction import (
+from JARVISROBO.plugins.disable import DisableAbleCommandHandler
+from JARVISROBO.plugins.helper_funcs.chat_status import is_user_admin
+from JARVISROBO.plugins.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from MADBUNS.plugins.helper_funcs.string_handling import markdown_parser
+from JARVISROBO.plugins.helper_funcs.string_handling import markdown_parser
 
 # <=======================================================================================================>
 
