@@ -59,8 +59,8 @@ ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
     # Read configuration from environment variables
-    API_ID = int(os.environ.get("API_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
+    API_ID = int(os.environ.get("API_ID", "27957041"))
+    API_HASH = os.environ.get("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     DB_URI = os.environ.get("DATABASE_URL")
@@ -76,7 +76,7 @@ if ENV:
     SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-1002094585538"))  # Support group id
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "loggerV1")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", "6505901629:AAFQdR48qTch7LLWhz67Gx7cjZL4Rw5s1wk")
 
     # Read and validate integer variables
     try:
