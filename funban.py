@@ -20,7 +20,7 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
-from MADBUNS import (
+from config import (
     DRAGONS,
     EVENT_LOGS,
     LOGGER,
