@@ -21,7 +21,7 @@ from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
 import Database.sql.feds_sql as sql
-from JARVISROBO import (
+from madbuns import (
     DRAGONS,
     EVENT_LOGS,
     LOGGER,
