@@ -30,15 +30,14 @@ from MADBUNS import (
     dispatcher,
     function,
 )
-from JARVISROBO.plugins.disable import DisableAbleCommandHandler
-from JARVISROBO.plugins.helper_funcs.alternate import send_message
-from JARVISROBO.plugins.helper_funcs.chat_status import is_user_admin
-from JARVISROBO.plugins.helper_funcs.extraction import (
+from MADBUNS.plugins.disable import DisableAbleCommandHandler
+from MADBUNS.plugins.helper_funcs.chat_status import is_user_admin
+from MADBUNS.plugins.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from JARVISROBO.plugins.helper_funcs.string_handling import markdown_parser
+from MADBUNS.plugins.helper_funcs.string_handling import markdown_parser
 
 # <=======================================================================================================>
 
