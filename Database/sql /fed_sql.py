@@ -6,7 +6,7 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Forbidden
 
 from Database.sql import BASE, SESSION
-from MADBUNS import dispatcher
+from JARVISROBO import dispatcher
 
 
 class Federations(BASE):
