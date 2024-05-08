@@ -80,7 +80,7 @@ if ENV:
 
     # Read and validate integer variables
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", "5759576247"))
+        OWNER_ID = int(os.environ.get("OWNER_ID", "6550354041"))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
@@ -91,7 +91,7 @@ if ENV:
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "5759576247").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "5759576247").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "6550354041").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
@@ -101,7 +101,7 @@ if ENV:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "5759576247").split())
+        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "6550354041").split())
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
