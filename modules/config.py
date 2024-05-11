@@ -5,4 +5,4 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OWNER_ID = int(getenv("5798855486"))
+OWNER_ID = int(getenv("OWNER_ID", "5798855486"))
