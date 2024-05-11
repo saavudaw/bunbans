@@ -6,7 +6,7 @@ import requests
 import os
 import time
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import Config
+import Config
 
 ABS = "Download Source"
 APPER = "Shamilhabeeb"
