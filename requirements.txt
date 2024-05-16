@@ -24,7 +24,7 @@ psutil
 wget
 pyfiglet
 qrcode
-pytz
+pytz==2023.4
 future==0.18.3
 search_engine_parser
 py-tgcalls==1.2.9
